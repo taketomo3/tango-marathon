@@ -1,0 +1,40 @@
+/* 
+  aids.json
+  TangoMarathon
+
+  Created by 竹田智哉 on 2022/09/13.
+  
+*/
+
+[
+    {
+        "name": "",
+        "id": 1,
+        "isCheckPoint": false,
+        "dist": {
+            "fromStart": 0,
+            "forNext": 0,
+        },
+        "coordinates": {
+            "longitude": ,
+            "latitude": ,
+        },
+        "drinks": {
+            "sports": false,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "food": {
+            "snack": [""],
+            "bread": [""],
+            "jelly": [""],
+            "dish": [""],
+        },
+        "fruit": {
+            "banana": true,
+            "pine": false,
+        },
+        "message": "",
+    }
+]
