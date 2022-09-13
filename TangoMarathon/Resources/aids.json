@@ -8,26 +8,26 @@
 
 [
     {
-        "name": "",
-        "id": 1,
-        "isCheckPoint": false,
+        "name": "アミティ丹後",
+        "id": 0,
+        "isCheckPoint": true,
         "dist": {
             "fromStart": 0,
-            "forNext": 0,
+            "forNext": 4.7,
         },
         "coordinates": {
-            "longitude": ,
-            "latitude": ,
+            "longitude": 135.02595600794325,
+            "latitude": 35.681806564819475,
         },
         "drinks": {
-            "sports": false,
-            "sp": false,
+            "sports": true,
+            "sp": true,
             "coke": false,
-            "hot": false,
+            "hot": true,
         },
         "food": {
-            "snack": [""],
-            "bread": [""],
+            "snack": ["ういろう"],
+            "bread": ["あんぱん"],
             "jelly": [""],
             "dish": [""],
         },
@@ -35,6 +35,6 @@
             "banana": true,
             "pine": false,
         },
-        "message": "",
+        "message": "100km頑張るぞー！",
     }
 ]

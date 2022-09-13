@@ -14,6 +14,7 @@
 		64BC192628D0968800DB9ECE /* AidDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC192528D0968800DB9ECE /* AidDetail.swift */; };
 		64BC192928D0971300DB9ECE /* aids.json in Resources */ = {isa = PBXBuildFile; fileRef = 64BC192828D0971300DB9ECE /* aids.json */; };
 		64BC192C28D0994700DB9ECE /* Aid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC192B28D0994700DB9ECE /* Aid.swift */; };
+		64BC192E28D0B1D200DB9ECE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC192D28D0B1D200DB9ECE /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		64BC192528D0968800DB9ECE /* AidDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidDetail.swift; sourceTree = "<group>"; };
 		64BC192828D0971300DB9ECE /* aids.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = aids.json; sourceTree = "<group>"; };
 		64BC192B28D0994700DB9ECE /* Aid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aid.swift; sourceTree = "<group>"; };
+		64BC192D28D0B1D200DB9ECE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				64BC192B28D0994700DB9ECE /* Aid.swift */,
+				64BC192D28D0B1D200DB9ECE /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				64BC191928D0956C00DB9ECE /* ContentView.swift in Sources */,
 				64BC191728D0956C00DB9ECE /* TangoMarathonApp.swift in Sources */,
+				64BC192E28D0B1D200DB9ECE /* ModelData.swift in Sources */,
 				64BC192C28D0994700DB9ECE /* Aid.swift in Sources */,
 				64BC192628D0968800DB9ECE /* AidDetail.swift in Sources */,
 			);
