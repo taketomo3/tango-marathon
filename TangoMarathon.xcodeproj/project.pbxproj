@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647DB91A28D3488C00F2BA52 /* AidList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DB91928D3488C00F2BA52 /* AidList.swift */; };
 		64BC191728D0956C00DB9ECE /* TangoMarathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC191628D0956C00DB9ECE /* TangoMarathonApp.swift */; };
 		64BC191928D0956C00DB9ECE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC191828D0956C00DB9ECE /* ContentView.swift */; };
 		64BC191B28D0956E00DB9ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BC191A28D0956E00DB9ECE /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		647DB91928D3488C00F2BA52 /* AidList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidList.swift; sourceTree = "<group>"; };
 		64BC191328D0956C00DB9ECE /* TangoMarathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangoMarathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC191628D0956C00DB9ECE /* TangoMarathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangoMarathonApp.swift; sourceTree = "<group>"; };
 		64BC191828D0956C00DB9ECE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				64BC191828D0956C00DB9ECE /* ContentView.swift */,
+				647DB91928D3488C00F2BA52 /* AidList.swift */,
 				64BC192528D0968800DB9ECE /* AidDetail.swift */,
 			);
 			path = Views;
@@ -176,6 +179,7 @@
 			files = (
 				64BC191928D0956C00DB9ECE /* ContentView.swift in Sources */,
 				64BC191728D0956C00DB9ECE /* TangoMarathonApp.swift in Sources */,
+				647DB91A28D3488C00F2BA52 /* AidList.swift in Sources */,
 				64BC192E28D0B1D200DB9ECE /* ModelData.swift in Sources */,
 				64BC192C28D0994700DB9ECE /* Aid.swift in Sources */,
 				64BC192628D0968800DB9ECE /* AidDetail.swift in Sources */,
