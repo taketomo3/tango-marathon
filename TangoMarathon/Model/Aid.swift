@@ -19,8 +19,8 @@ struct Aid: Hashable, Codable, Identifiable {
         let date = calendar.date(from: DateComponents(year: 2022, month: 9, day: 18))
 
         let checkPointTime = calendar.date(bySettingHour: nextCheckPoint.hour, minute: nextCheckPoint.min, second: 0, of: date!)
-        let start = calendar.date(bySettingHour: 4, minute: 30, second: 0, of: date!)
-        let diff = calendar.dateComponents([.minute], from: start!, to: checkPointTime!).minute!
+//        let start = calendar.date(bySettingHour: 4, minute: 30, second: 0, of: date!)
+        let diff = calendar.dateComponents([.minute], from: Date(), to: checkPointTime!).minute!
         return diff
     }
     
