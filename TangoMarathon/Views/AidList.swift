@@ -18,13 +18,12 @@ struct AidList: View {
                         Text(aid.dist.fromStart.description)
 
                         Text(aid.name)
-                        
-                        Spacer()
                     }
                 }
             }
-            .navigationBarTitle("ウルトラマラソン", displayMode: .large)
+            .navigationTitle("エイドリスト")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

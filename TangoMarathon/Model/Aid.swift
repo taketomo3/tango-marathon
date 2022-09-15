@@ -33,6 +33,11 @@ struct Aid: Hashable, Codable, Identifiable {
         return ToNextCP(time: "\(hour)時間\(min)分", averagePace: pace, dist: "\(nextCheckPoint.dist) km")
     }
 
+    var now: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "H:m", options: 0, locale: Locale(identifier: "ja_JP"))
+        return dateFormatter.string(from: Date())
+    }
 
     private var drinks: Drinks
     var drink: String {

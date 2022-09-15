@@ -19,5 +19,25 @@
         },
         "foods": ["ういろう", "あんぱん"],
         "hasPine": false,
+    }, {
+        "name": "アミティ丹後",
+        "id": 1,
+        "dist": {
+            "fromStart": 0,
+            "nextAid": 4.7
+        },
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": true,
+            "coke": false,
+            "hot": true,
+        },
+        "foods": ["ういろう", "あんぱん"],
+        "hasPine": false,
     }
 ]

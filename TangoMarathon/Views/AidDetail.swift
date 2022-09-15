@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AidDetail: View {
-    var aid: Aid 
+    var aid: Aid
 
     var body: some View {
         NavigationView {
@@ -24,7 +24,7 @@ struct AidDetail: View {
                 } header: {
                     Text("フード")
                 }
-              
+
                 Section {
                     Text("\(aid.dist.nextAid.description)km")
                 } header: {
@@ -38,14 +38,14 @@ struct AidDetail: View {
                         Text("\(aid.toNextCP.time)")
                             .foregroundColor(.secondary)
                     }
-                    
+
                     HStack {
                         Text("距離")
                         Spacer()
                         Text("\(aid.toNextCP.dist)")
                             .foregroundColor(.secondary)
                     }
-                    
+
                     HStack {
                         Text("平均ペース")
                         Spacer()
@@ -53,12 +53,18 @@ struct AidDetail: View {
                             .foregroundColor(.secondary)
                     }
                 } header: {
-                    Text("次の関所まで")
+                    HStack {
+                        Text("次の関所まで")
+                        Spacer()
+                        Text("現在時刻: \(aid.now)")
+                    }
                 }
-                
             }
-            .navigationBarTitle("\(aid.dist.fromStart.description) \(aid.name)", displayMode: .inline)
+            .navigationBarHidden(true)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
+        .navigationTitle("\(aid.dist.fromStart.description) \(aid.name)")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
