@@ -55,12 +55,10 @@ struct AidDetail: View {
                 } header: {
                     Text("次の関所まで")
                 }
-
+                
             }
-            .navigationTitle("\(aid.dist.fromStart.description): \(aid.name)")
-            
+            .navigationBarTitle("\(aid.dist.fromStart.description) \(aid.name)", displayMode: .inline)
         }
-        .edgesIgnoringSafeArea(.all)
     }
 }
 

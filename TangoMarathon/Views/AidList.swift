@@ -23,7 +23,7 @@ struct AidList: View {
                     }
                 }
             }
-            .navigationTitle("ウルトラマラソン")
+            .navigationBarTitle("ウルトラマラソン", displayMode: .large)
         }
     }
 }
