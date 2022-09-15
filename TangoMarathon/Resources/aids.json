@@ -1,23 +1,15 @@
-/* 
-  aids.json
-  TangoMarathon
-
-  Created by 竹田智哉 on 2022/09/13.
-  
-*/
-
 [
     {
         "name": "アミティ丹後",
         "id": 0,
-        "isCheckPoint": true,
         "dist": {
             "fromStart": 0,
-            "forNext": 4.7,
+            "nextAid": 4.7
         },
-        "coordinates": {
-            "longitude": 135.02595600794325,
-            "latitude": 35.681806564819475,
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
         },
         "drinks": {
             "sports": true,
@@ -25,16 +17,7 @@
             "coke": false,
             "hot": true,
         },
-        "food": {
-            "snack": ["ういろう"],
-            "bread": ["あんぱん"],
-            "jelly": [""],
-            "dish": [""],
-        },
-        "fruit": {
-            "banana": true,
-            "pine": false,
-        },
-        "message": "100km頑張るぞー！",
+        "foods": ["ういろう", "あんぱん"],
+        "hasPine": false,
     }
 ]

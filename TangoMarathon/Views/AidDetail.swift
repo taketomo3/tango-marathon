@@ -8,13 +8,64 @@
 import SwiftUI
 
 struct AidDetail: View {
+    var aid: Aid 
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                Section {
+                    Text(aid.drink)
+                } header: {
+                    Text("ドリンク")
+                }
+
+                Section {
+                    Text("\(aid.food)")
+                } header: {
+                    Text("フード")
+                }
+              
+                Section {
+                    Text("\(aid.dist.nextAid.description)km")
+                } header: {
+                    Text("次のエイドまで")
+                }
+
+                Section {
+                    HStack {
+                        Text("時間")
+                        Spacer()
+                        Text("\(aid.toNextCP.time)")
+                            .foregroundColor(.secondary)
+                    }
+                    
+                    HStack {
+                        Text("距離")
+                        Spacer()
+                        Text("\(aid.toNextCP.dist)")
+                            .foregroundColor(.secondary)
+                    }
+                    
+                    HStack {
+                        Text("平均ペース")
+                        Spacer()
+                        Text("\(aid.toNextCP.averagePace)")
+                            .foregroundColor(.secondary)
+                    }
+                } header: {
+                    Text("次の関所まで")
+                }
+
+            }
+            .navigationTitle("\(aid.dist.fromStart.description): \(aid.name)")
+            
+        }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct AidDetail_Previews: PreviewProvider {
     static var previews: some View {
-        AidDetail()
+        AidDetail(aid: aids[0])
     }
 }
