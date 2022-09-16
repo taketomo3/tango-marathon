@@ -25,12 +25,13 @@ struct Aid: Hashable, Codable, Identifiable {
     }
     
     var toNextCP: ToNextCP {
+        let dist = nextCheckPoint.dist - dist.fromStart
         let hour = lastMin / 60
         let min = lastMin - hour * 60
-        let minPace = Double(lastMin) / nextCheckPoint.dist
+        let minPace = Double(lastMin) / dist
         let secPace = Int(minPace * 60 - floor(minPace) * 60)
         let pace = "キロ \(Int(minPace))分 \(secPace)秒"
-        return ToNextCP(time: "\(hour)時間\(min)分", averagePace: pace, dist: "\(nextCheckPoint.dist) km")
+        return ToNextCP(time: "\(hour)時間\(min)分", averagePace: pace, dist: "\(floor(dist * 10) / 10) km")
     }
 
     var now: String {
@@ -56,7 +57,11 @@ struct Aid: Hashable, Codable, Identifiable {
             ans += "コーラ, "
         }
 
-        ans.removeLast(2)
+        if (ans.count <= 2) {
+            ans = "-"
+        } else {
+            ans.removeLast(2)
+        }
 
         return ans
     }

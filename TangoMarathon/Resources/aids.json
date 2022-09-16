@@ -20,11 +20,11 @@
         "foods": ["ういろう", "あんぱん"],
         "hasPine": false,
     }, {
-        "name": "アミティ丹後",
+        "name": "網野駅",
         "id": 1,
         "dist": {
-            "fromStart": 0,
-            "nextAid": 4.7
+            "fromStart": 4.7,
+            "nextAid": 5.2
         },
         "nextCheckPoint": {
             "dist": 29.6,
@@ -32,12 +32,12 @@
             "min": 40,
         },
         "drinks": {
-            "sports": true,
-            "sp": true,
+            "sports": false,
+            "sp": false,
             "coke": false,
-            "hot": true,
+            "hot": false,
         },
-        "foods": ["ういろう", "あんぱん"],
+        "foods": ["チョコ", "飴"],
         "hasPine": false,
     }
 ]
