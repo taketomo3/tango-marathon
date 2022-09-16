@@ -21,7 +21,7 @@ struct Aid: Hashable, Codable, Identifiable {
         let checkPointTime = calendar.date(bySettingHour: nextCheckPoint.hour, minute: nextCheckPoint.min, second: 0, of: date!)
 //        let start = calendar.date(bySettingHour: 4, minute: 30, second: 0, of: date!)
         let diff = calendar.dateComponents([.minute], from: Date(), to: checkPointTime!).minute!
-        return diff
+        return diff > 0 ? diff : 0
     }
     
     var toNextCP: ToNextCP {
