@@ -39,5 +39,525 @@
         },
         "foods": ["チョコ", "飴"],
         "hasPine": false,
+    }, {
+        "name": "木津保育所跡地",
+        "id": 2,
+        "dist": {
+            "fromStart": 9.9,
+            "nextAid": 2.9,
+        },
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["ドーナツ", "あんぱん"],
+        "hasPine": false,
+    }, {
+        "name": "フルーツライン",
+        "id": 3,
+        "dist": {
+            "fromStart": 12.8,
+            "nextAid": 3.5
+        },
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["マシュマロ", "バウムクーヘン"],
+        "hasPine": false,
+    }, {
+        "name": "くみはまSANKAIKAN",
+        "id": 4,
+        "dist": {
+            "fromStart": 16.3,
+            "nextAid": 4.7
+        },
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["丹後のスープ", "クリームパン"],
+        "hasPine": false,
+    }, {
+        "name": "十楽",
+        "id": 5,
+        "dist": {
+            "fromStart": 21.0,
+            "nextAid": 4.6
+        },
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": true,
+            "hot": false,
+        },
+        "foods": ["丹後のがちゃまん", "カルパス"],
+        "hasPine": false,
+    }, {
+        "name": "碧翠御苑前",
+        "id": 6,
+        "dist": {
+            "fromStart": 25.6,
+            "nextAid": 4.0
+        },
+        "nextCheckPoint": {
+            "dist": 29.6,
+            "hour": 8,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": false,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["ピーナッツパン", "焼きそばパン"],
+        "hasPine": false,
+    }, {
+        "name": "海山園",
+        "id": 7,
+        "dist": {
+            "fromStart": 29.6,
+            "nextAid": 4.9
+        },
+        "nextCheckPoint": {
+            "dist": 54.6,
+            "hour": 12,
+            "min": 0,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": true,
+            "coke": true,
+            "hot": true,
+        },
+        "foods": ["へしこおにぎり", "バウムクーヘン"],
+        "hasPine": false,
+    }, {
+        "name": "浜詰駐車場",
+        "id": 8,
+        "dist": {
+            "fromStart": 34.5,
+            "nextAid": 4.1
+        },
+        "nextCheckPoint": {
+            "dist": 54.6,
+            "hour": 12,
+            "min": 0,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["チョコパン", "おつまみアソート"],
+        "hasPine": false,
+    }, {
+        "name": "七竜峠展望台",
+        "id": 9,
+        "dist": {
+            "fromStart": 38.6,
+            "nextAid": 5.4
+        },
+        "nextCheckPoint": {
+            "dist": 54.6,
+            "hour": 12,
+            "min": 0,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": true,
+            "hot": false,
+        },
+        "foods": ["メダリストゼリー"],
+        "hasPine": false,
+    }, {
+        "name": "浅茂川漁港",
+        "id": 10,
+        "dist": {
+            "fromStart": 44.0,
+            "nextAid": 3.9
+        },
+        "nextCheckPoint": {
+            "dist": 54.6,
+            "hour": 12,
+            "min": 0,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["丹後のうどん"],
+        "hasPine": false,
+    }, {
+        "name": "三本松交差点",
+        "id": 11,
+        "dist": {
+            "fromStart": 47.9,
+            "nextAid": 3.4
+        },
+        "nextCheckPoint": {
+            "dist": 54.6,
+            "hour": 12,
+            "min": 0,
+        },
+        "drinks": {
+            "sports": false,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["水ようかん", "うずらの卵", "クリームパン"],
+        "hasPine": false,
+    }, {
+        "name": "丹後王国前",
+        "id": 12,
+        "dist": {
+            "fromStart": 51.3,
+            "nextAid": 3.3
+        },
+        "nextCheckPoint": {
+            "dist": 54.6,
+            "hour": 12,
+            "min": 0,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["丹後のパン", "ういろう"],
+        "hasPine": false,
+    }, {
+        "name": "弥栄地域公民館",
+        "id": 13,
+        "dist": {
+            "fromStart": 54.6,
+            "nextAid": 4.3
+        },
+        "nextCheckPoint": {
+            "dist": 72.4,
+            "hour": 14,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": true,
+            "coke": true,
+            "hot": true,
+        },
+        "foods": ["丹後のバラ寿司"],
+        "hasPine": true,
+    }, {
+        "name": "交通規制ゲート前",
+        "id": 14,
+        "dist": {
+            "fromStart": 58.9,
+            "nextAid": 3.7
+        },
+        "nextCheckPoint": {
+            "dist": 72.4,
+            "hour": 14,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["あんぱん", "こんにゃくゼリー"],
+        "hasPine": false,
+    }, {
+        "name": "新中津橋手前",
+        "id": 15,
+        "dist": {
+            "fromStart": 62.6,
+            "nextAid": 3.5
+        },
+        "nextCheckPoint": {
+            "dist": 72.4,
+            "hour": 14,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["メダリストゼリー", "おつまみアソート"],
+        "hasPine": false,
+    }, {
+        "name": "吉野",
+        "id": 16,
+        "dist": {
+            "fromStart": 66.1,
+            "nextAid": 3.5
+        },
+        "nextCheckPoint": {
+            "dist": 72.4,
+            "hour": 14,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["クリームパン"],
+        "hasPine": false,
+    }, {
+        "name": "縦貫林道合流後",
+        "id": 17,
+        "dist": {
+            "fromStart": 69.6,
+            "nextAid": 2.8
+        },
+        "nextCheckPoint": {
+            "dist": 72.4,
+            "hour": 14,
+            "min": 40,
+        },
+        "drinks": {
+            "sports": false,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["あんぱん", "駄菓子詰め合わせ"],
+        "hasPine": false,
+    }, {
+        "name": "碇高原管理事務所",
+        "id": 18,
+        "dist": {
+            "fromStart": 72.4,
+            "nextAid": 4.5
+        },
+        "nextCheckPoint": {
+            "dist": 85.8,
+            "hour": 16,
+            "min": 25,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": true,
+            "coke": true,
+            "hot": true,
+        },
+        "foods": ["丹後のスープ", "そうめん"],
+        "hasPine": true,
+    }, {
+        "name": "縦貫林道左待避所",
+        "id": 19,
+        "dist": {
+            "fromStart": 76.9,
+            "nextAid": 3.4
+        },
+        "nextCheckPoint": {
+            "dist": 85.8,
+            "hour": 16,
+            "min": 25,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["カルパス"],
+        "hasPine": false,
+    }, {
+        "name": "R178旧道入口",
+        "id": 20,
+        "dist": {
+            "fromStart": 80.3,
+            "nextAid": 3.3
+        },
+        "nextCheckPoint": {
+            "dist": 85.8,
+            "hour": 16,
+            "min": 25,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["丹後のがちゃまん", "ういろう", "うずらの卵"],
+        "hasPine": false,
+    }, {
+        "name": "筆石バス停",
+        "id": 21,
+        "dist": {
+            "fromStart": 83.6,
+            "nextAid": 2.2
+        },
+        "nextCheckPoint": {
+            "dist": 85.8,
+            "hour": 16,
+            "min": 25,
+        },
+        "drinks": {
+            "sports": false,
+            "sp": false,
+            "coke": true,
+            "hot": false,
+        },
+        "foods": ["メダリストゼリー", "焼きそばパン"],
+        "hasPine": false,
+    }, {
+        "name": "丹後庁舎",
+        "id": 24,
+        "dist": {
+            "fromStart": 85.8,
+            "nextAid": 2.5
+        },
+        "nextCheckPoint": {
+            "dist": 100,
+            "hour": 18,
+            "min": 30,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": true,
+            "coke": true,
+            "hot": true,
+        },
+        "foods": ["丹後のつみれ汁", "柿の葉寿司"],
+        "hasPine": false,
+    }, {
+        "name": "除雪車庫",
+        "id": 25,
+        "dist": {
+            "fromStart": 88.3,
+            "nextAid": 1.8
+        },
+        "nextCheckPoint": {
+            "dist": 100,
+            "hour": 18,
+            "min": 30,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["チョコパン"],
+        "hasPine": false,
+    }, {
+        "name": "砂方バス停",
+        "id": 26,
+        "dist": {
+            "fromStart": 90.1,
+            "nextAid": 2.2
+        },
+        "nextCheckPoint": {
+            "dist": 100,
+            "hour": 18,
+            "min": 30,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": true,
+            "hot": false,
+        },
+        "foods": ["駄菓子詰め合わせ"],
+        "hasPine": false,
+    }, {
+        "name": "三津塩工場",
+        "id": 27,
+        "dist": {
+            "fromStart": 92.3,
+            "nextAid": 1.8
+        },
+        "nextCheckPoint": {
+            "dist": 100,
+            "hour": 18,
+            "min": 30,
+        },
+        "drinks": {
+            "sports": false,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["丹後のおしるこ"],
+        "hasPine": false,
+    }, {
+        "name": "琴引浜鳴き砂文化館",
+        "id": 28,
+        "dist": {
+            "fromStart": 94.1,
+            "nextAid": 3.4
+        },
+        "nextCheckPoint": {
+            "dist": 100,
+            "hour": 18,
+            "min": 30,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["こんにゃくゼリー", "おつまみアソート"],
+        "hasPine": false,
+    }, {
+        "name": "八丁浜シーサイドパーク",
+        "id": 29,
+        "dist": {
+            "fromStart": 97.5,
+            "nextAid": 2.5
+        },
+        "nextCheckPoint": {
+            "dist": 100,
+            "hour": 18,
+            "min": 30,
+        },
+        "drinks": {
+            "sports": true,
+            "sp": false,
+            "coke": false,
+            "hot": false,
+        },
+        "foods": ["チョコ", "飴"],
+        "hasPine": false,
     }
 ]
