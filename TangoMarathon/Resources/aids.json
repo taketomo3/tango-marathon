@@ -2,6 +2,7 @@
     {
         "name": "アミティ丹後",
         "id": 0,
+        "isCheckPoint": true,
         "dist": {
             "fromStart": 0,
             "nextAid": 4.7
@@ -22,6 +23,7 @@
     }, {
         "name": "網野駅",
         "id": 1,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 4.7,
             "nextAid": 5.2
@@ -42,6 +44,7 @@
     }, {
         "name": "木津保育所跡地",
         "id": 2,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 9.9,
             "nextAid": 2.9,
@@ -62,6 +65,7 @@
     }, {
         "name": "フルーツライン",
         "id": 3,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 12.8,
             "nextAid": 3.5
@@ -82,6 +86,7 @@
     }, {
         "name": "くみはまSANKAIKAN",
         "id": 4,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 16.3,
             "nextAid": 4.7
@@ -102,6 +107,7 @@
     }, {
         "name": "十楽",
         "id": 5,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 21.0,
             "nextAid": 4.6
@@ -122,6 +128,7 @@
     }, {
         "name": "碧翠御苑前",
         "id": 6,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 25.6,
             "nextAid": 4.0
@@ -142,6 +149,7 @@
     }, {
         "name": "海山園",
         "id": 7,
+        "isCheckPoint": true,
         "dist": {
             "fromStart": 29.6,
             "nextAid": 4.9
@@ -162,6 +170,7 @@
     }, {
         "name": "浜詰駐車場",
         "id": 8,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 34.5,
             "nextAid": 4.1
@@ -182,6 +191,7 @@
     }, {
         "name": "七竜峠展望台",
         "id": 9,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 38.6,
             "nextAid": 5.4
@@ -202,6 +212,7 @@
     }, {
         "name": "浅茂川漁港",
         "id": 10,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 44.0,
             "nextAid": 3.9
@@ -222,6 +233,7 @@
     }, {
         "name": "三本松交差点",
         "id": 11,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 47.9,
             "nextAid": 3.4
@@ -242,6 +254,7 @@
     }, {
         "name": "丹後王国前",
         "id": 12,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 51.3,
             "nextAid": 3.3
@@ -262,6 +275,7 @@
     }, {
         "name": "弥栄地域公民館",
         "id": 13,
+        "isCheckPoint": true,
         "dist": {
             "fromStart": 54.6,
             "nextAid": 4.3
@@ -282,6 +296,7 @@
     }, {
         "name": "交通規制ゲート前",
         "id": 14,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 58.9,
             "nextAid": 3.7
@@ -302,6 +317,7 @@
     }, {
         "name": "新中津橋手前",
         "id": 15,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 62.6,
             "nextAid": 3.5
@@ -322,6 +338,7 @@
     }, {
         "name": "吉野",
         "id": 16,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 66.1,
             "nextAid": 3.5
@@ -342,6 +359,7 @@
     }, {
         "name": "縦貫林道合流後",
         "id": 17,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 69.6,
             "nextAid": 2.8
@@ -362,6 +380,7 @@
     }, {
         "name": "碇高原管理事務所",
         "id": 18,
+        "isCheckPoint": true,
         "dist": {
             "fromStart": 72.4,
             "nextAid": 4.5
@@ -382,6 +401,7 @@
     }, {
         "name": "縦貫林道左待避所",
         "id": 19,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 76.9,
             "nextAid": 3.4
@@ -402,6 +422,7 @@
     }, {
         "name": "R178旧道入口",
         "id": 20,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 80.3,
             "nextAid": 3.3
@@ -422,6 +443,7 @@
     }, {
         "name": "筆石バス停",
         "id": 21,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 83.6,
             "nextAid": 2.2
@@ -442,6 +464,7 @@
     }, {
         "name": "丹後庁舎",
         "id": 24,
+        "isCheckPoint": true,
         "dist": {
             "fromStart": 85.8,
             "nextAid": 2.5
@@ -462,6 +485,7 @@
     }, {
         "name": "除雪車庫",
         "id": 25,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 88.3,
             "nextAid": 1.8
@@ -482,6 +506,7 @@
     }, {
         "name": "砂方バス停",
         "id": 26,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 90.1,
             "nextAid": 2.2
@@ -502,6 +527,7 @@
     }, {
         "name": "三津塩工場",
         "id": 27,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 92.3,
             "nextAid": 1.8
@@ -522,6 +548,7 @@
     }, {
         "name": "琴引浜鳴き砂文化館",
         "id": 28,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 94.1,
             "nextAid": 3.4
@@ -542,6 +569,7 @@
     }, {
         "name": "八丁浜シーサイドパーク",
         "id": 29,
+        "isCheckPoint": false,
         "dist": {
             "fromStart": 97.5,
             "nextAid": 2.5

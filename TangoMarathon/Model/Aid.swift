@@ -10,6 +10,7 @@ import Foundation
 struct Aid: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
+    var isCheckPoint: Bool
 
     var dist: Dist
 

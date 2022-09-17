@@ -20,6 +20,7 @@ struct AidList: View {
                         Text(aid.name)
                     }
                 }
+                .foregroundColor(aid.isCheckPoint ? Color.blue : .none)
             }
             .navigationTitle("エイドリスト")
         }
