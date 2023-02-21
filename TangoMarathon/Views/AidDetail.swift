@@ -59,12 +59,26 @@ struct AidDetail: View {
                         Text("現在時刻: \(aid.now)")
                     }
                 }
+                HStack {
+                    Text("到着時刻")
+                    Spacer()
+                    Text(UserDefaults.standard.string(forKey: "arrived_\(aid.id)") ?? "")
+                        .foregroundColor(.secondary)
+                }
             }
             .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
         .navigationTitle("\(aid.dist.fromStart.description) \(aid.name)")
         .navigationBarTitleDisplayMode(.inline)
+        
+        .toolbar {
+            ToolbarItem(placement: .bottomBar) {
+                Button("到着！！") {
+                    UserDefaults.standard.set(aid.now, forKey: "arrived_\(aid.id)")
+                }
+            }
+        }
     }
 }
 

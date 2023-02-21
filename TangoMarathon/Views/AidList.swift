@@ -11,6 +11,8 @@ struct AidList: View {
     var body: some View {
         NavigationView {
             List(aids) { aid in
+                let arrivedAt = UserDefaults.standard.string(forKey: "arrived_\(aid.id)")
+
                 NavigationLink {
                     AidDetail(aid: aid)
                 } label: {
@@ -18,13 +20,17 @@ struct AidList: View {
                         Text(aid.dist.fromStart.description)
 
                         Text(aid.name)
+                        
+                        Text(arrivedAt ?? "")
                     }
                 }
-                .foregroundColor(aid.isCheckPoint ? Color.blue : .none)
+                .foregroundColor(arrivedAt != nil ? Color.secondary : (aid.isCheckPoint ? Color.blue : .none))
             }
             .navigationTitle("エイドリスト")
         }
         .navigationViewStyle(StackNavigationViewStyle())
+        
+        
     }
 }
 
